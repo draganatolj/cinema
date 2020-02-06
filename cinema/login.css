@@ -1,0 +1,75 @@
+
+
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(kino.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+
+h5 {
+    color: #ffffff;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h3{
+    color:#ffffff; 
+    font-family: "Libre Baskerville", serif;
+
+}
+h4{
+    color: #ffff; 
+    
+    font-family: 'Playfair Display SC', serif;
+}
+.naslov img{
+    float: left;
+    position:relative;
+    left:300px;
+   
+}
+.naslov h3{
+
+    float:left;
+    position: relative;
+    left: 300px;
+    
+    font-family: 'Sigmar One', cursive;
+}
+.naslov h4{
+    float:left;
+    right: 100px;
+    position: relative;
+    top: 50px;
+    
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Playfair Display SC', serif;
+}
+
+
+.naslov{
+    overflow:auto;
+    padding-top: 10px;
+}
+.naslov2{
+    text-align: center;
+    color:#7c795d; 
+    font-family: "Libre Baskerville", serif;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 100px auto;
+}
+.login-left{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+.login-right{
+    background: #ffffff;
+    padding: 30px;
+}
+.form-control{
+    background-color: transparent !important;
+}
