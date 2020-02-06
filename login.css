@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(kino.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+h3{
+    color:#7c795d; 
+    font-family: "Libre Baskerville", serif;
+
+}
+h4{
+    color: #7c795d; 
+    font-family: "Libre Baskerville", serif;
+}
+.naslov img{
+    float: left;
+    position:relative;
+    left:300px;
+   
+}
+.naslov h3{
+    float:left;
+    position: relative;
+    left: 350px;
+}
+.naslov h4{
+    float:left;
+    position: relative;
+    top: 50px;
+}
+.naslov{
+    overflow:auto;
+    padding-top: 10px;
+}
+.naslov2{
+    text-align: center;
+    color:#7c795d; 
+    font-family: "Libre Baskerville", serif;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 100px auto;
+}
+.login-left{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+}
+.login-right{
+    background: #ffffff;
+    padding: 30px;
+}
+.form-control{
+    background-color: transparent !important;
+}
