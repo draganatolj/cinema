@@ -3,9 +3,6 @@
         padding: 0;
     
     }
-    #section-newsletter{
-        padding-top: 0;
-      }
 
  /*----Navigation-----*/
 
@@ -96,17 +93,45 @@
       transition: all 0.4s ease 0s;
               }
       
-      
+    /* Contact Section */
+    #section-contact{
+        background-color: #2c2c2c;
+        color: #efefef !important;
+        padding-top: 60px;
+    
+    }
+    .contact-us-section h1 {
+        padding: 20px 0;
+        border-bottom: #4e4e4e solid 1px;
+        margin-bottom: 30px;
+    }
+
+    .contact-us-section1 form * {
+        padding: 6px;
+        margin: 6px 0;
+    }
+
+    .contact-us-section1 form *:not(button) {
+        border: #645a5e 1px solid;
+    }
+
+    .contact-us-section1 form button {
+        background-color: #443d40;
+        color: #b6b6b6;
+        border: none;
+        cursor: pointer;
+    }
+    
     /* Movie Section Styling */
     #section-filmovi
     {
-        background-color: #eaece5;
+        background-color: #ffffff;
         background-size: cover;
         background-position: center;
         color: #efefef !important;
         background-attachment: fixed;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
         
     }
     #section-filmovi h4
@@ -204,7 +229,6 @@
     }
 
     /* Trailers Section */
-
     .trailers-section>h1,
     .trailers-section>h3 {
         padding: 0 10%;
@@ -231,10 +255,11 @@
     }
 
     .trailers-grid {
-        margin: 60px 0;
+        margin: 60px 0px 0px 0px ;
         display: grid;
         grid-template-columns: auto auto auto;
         height: 80vh;
+        padding-bottom: 0px;
     }
 
     .trailers-grid-item {
@@ -332,8 +357,7 @@
     .booking-panel-section4 {
         border-radius: 10px;
         border: 1px #F08080 solid;
-        background-color: #FFF;
-        
+        background-color: white;
     }
 
     .booking-panel-section4>.title {
@@ -347,7 +371,8 @@
     }
 
     .movie-information>table {
-        padding: 0 35px 0 35px;
+        
+        margin-left: 30px;
     }
 
     .movie-information td {
