@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
     * {
         margin: 0;
         padding: 0;
@@ -98,21 +100,24 @@
         background-color: #2c2c2c;
         color: #efefef !important;
         padding-top: 60px;
-    
-    }
-    .contact-us-section h1 {
-        padding: 20px 0;
-        border-bottom: #4e4e4e solid 1px;
-        margin-bottom: 30px;
+
     }
 
     .contact-us-section1 form * {
-        padding: 6px;
-        margin: 6px 0;
-    }
-
-    .contact-us-section1 form *:not(button) {
-        border: #645a5e 1px solid;
+       
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight:300;
+        font-size: 15px;
+        border-radius: 5px;
+        line-height: 22px;
+        background-color: transparent;
+        border:1px solid rgb(168, 128, 128);
+        transition: all 0.3s;
+        padding: 13px;
+        margin-bottom: 15px;
+        width:100%;
+        box-sizing: border-box;
+        outline:0;
     }
 
     .contact-us-section1 form button {
